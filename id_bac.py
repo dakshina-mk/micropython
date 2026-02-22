@@ -1,11 +1,12 @@
 bacdata_dict = {
     "Escherichia_coli": "ATGCGTACGTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGC",
     "Bacillus_subtilis": "ATGCGTACGTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTA",
-    "Staphylococcus_aureus": "ATGCGTACGTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAG"
+    "Staphylococcus_aureus": "ATATATAFCATATATCGATATATATATATATTATTATTATTA"
 }
 
 
-unknown_species = "ATCTGCGTACGTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTA"
+unknown_species = "ATATATAFCATATATCGATATATATATATATTATTATTATTA"
+
 
 def sequence_identity(seq1, seq2):
     length = min(len(seq1), len(seq2))
